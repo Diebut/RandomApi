@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Diebut/RandomApi/issues"
   },
-  "homepage": "https://github.com/Diebut/RandomApi#readme"
+  "homepage": "https://github.com/Diebut/RandomApi#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
