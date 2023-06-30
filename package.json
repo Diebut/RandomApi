@@ -1,0 +1,20 @@
+{
+  "name": "primera-Api",
+  "version": "1.0.0",
+  "description": "---\r ## API de numeros aleatorios\r  * paso 1\r     * el cliente solicita un numero aleatorio dandonos sus parametros",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diebut/RandomApi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Diebut/RandomApi/issues"
+  },
+  "homepage": "https://github.com/Diebut/RandomApi#readme"
+}
