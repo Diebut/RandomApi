@@ -8,7 +8,10 @@ app.get('/', () =>{
 app.get('/random/:numeroInicial/:numeroFinal', (req, res) =>{
     const min = parseInt(req.params.numeroFinal);
     const max = parseInt(req.params.numeroFinal);
-    console.log(typeof min);
+
+    const result = Math.random() * (max - min) + min
+    console.log(result);
+    
     res.send('recibido');
 })
 
