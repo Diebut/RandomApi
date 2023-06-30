@@ -6,8 +6,9 @@ app.get('/', () =>{
 });
 
 app.get('/random/:numeroInicial/:numeroFinal', (req, res) =>{
-    console.log(req.params.numeroFinal);
-    console.log(req.params.numeroFinal);
+    const min = parseInt(req.params.numeroFinal);
+    const max = parseInt(req.params.numeroFinal);
+    console.log(typeof min);
     res.send('recibido');
 })
 
