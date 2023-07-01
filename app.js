@@ -10,9 +10,9 @@ app.get('/random/:numeroInicial/:numeroFinal', (req, res) =>{
     const max = parseInt(req.params.numeroFinal);
 
     const result = Math.floor(Math.random() * (max - min) + min)
-    console.log(result);
+    //console.log(result);
     
-    res.send('recibido');
+    res.json(result);
 })
 
 app.listen(3000, () =>{
