@@ -12,7 +12,7 @@ app.get('/random/:numeroInicial/:numeroFinal', (req, res) =>{
     const result = Math.floor(Math.random() * (max - min) + min)
     //console.log(result);
     
-    res.json(result);
+    res.json({"randomNumber": result});
 })
 
 app.listen(3000, () =>{
